@@ -19,7 +19,6 @@
 1. Random: This policy evicts a random object from the cache. It selects an object at random and removes it when the cache is full.
 1. These alternative eviction policies offer different trade-offs in terms of cache performance, memory utilization, and implementation complexity. The choice of eviction policy depends on the specific requirements and characteristics of the system in which the cache is used.
 
-
 # System Design:
 The cache system design consists of two main components: the Cache class and the Node class. The Cache class handles the cache operations and maintains the key-value pairs, while the Node class represents individual objects in the cache, forming a doubly linked list.
 

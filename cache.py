@@ -1,5 +1,3 @@
-# cache.py
-
 class Node:
     def __init__(self, key, value):
         self.key = key
